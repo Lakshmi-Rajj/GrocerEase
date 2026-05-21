@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const API = 'http://localhost:5000/api/products';
+const API = 'https://grocerease-hoo0.onrender.com/api/products';
 
 export default function Inventory() {
   const [products, setProducts] = useState([]);

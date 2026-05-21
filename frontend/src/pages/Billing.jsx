@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 
-const API_P = 'http://localhost:5000/api/products';
-const API_S = 'http://localhost:5000/api/sales';
+const API_P = 'https://grocerease-hoo0.onrender.com/api/products';
+const API_S = 'https://grocerease-hoo0.onrender.com/api/sales';
 
 export default function Billing() {
   const [products, setProducts] = useState([]);

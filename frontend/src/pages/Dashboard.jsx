@@ -22,8 +22,8 @@ export default function Dashboard() {
   const [sales, setSales] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/products').then(r => setProducts(r.data));
-    axios.get('http://localhost:5000/api/sales').then(r => setSales(r.data));
+    axios.get('https://grocerease-hoo0.onrender.com/api/products').then(r => setProducts(r.data));
+    axios.get('https://grocerease-hoo0.onrender.com/api/sales').then(r => setSales(r.data));
   }, []);
 
   const totalRevenue = sales.reduce((sum, s) => sum + s.total, 0);

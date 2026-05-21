@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/sales';
+const API = 'https://grocerease-hoo0.onrender.com/api/sales';
 
 export default function SalesHistory() {
   const [sales, setSales] = useState([]);
