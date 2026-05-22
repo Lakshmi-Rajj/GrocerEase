@@ -134,7 +134,7 @@ export default function Billing() {
                   background: 'linear-gradient(135deg, #059669, #34d399)',
                   color: 'white', border: 'none', borderRadius: '12px',
                   padding: '14px 28px', fontWeight: '700', cursor: 'pointer', fontSize: '16px'
-                }}>✅ Checkout</button>
+                }}> Checkout</button>
               </div>
             </>
           )}
@@ -172,7 +172,7 @@ export default function Billing() {
                 background: 'rgba(99,102,241,0.15)', color: '#818cf8',
                 border: '1px solid rgba(99,102,241,0.3)', borderRadius: '10px',
                 padding: '12px', fontWeight: '600', cursor: 'pointer', fontSize: '14px'
-              }}>🖨️ Print Receipt</button>
+              }}> Print Receipt</button>
             </>
           )}
         </div>
