@@ -60,7 +60,7 @@ export default function Dashboard() {
           </div>
           {lowStock.length === 0 ? (
             <div style={{ textAlign: 'center', padding: '20px', color: '#34d399' }}>
-              <div style={{ fontSize: '32px', marginBottom: '8px' }}>✅</div>
+              <div style={{ fontSize: '32px', marginBottom: '8px' }}></div>
               <div style={{ fontSize: '14px' }}>All items well stocked!</div>
             </div>
           ) : lowStock.map(p => (
